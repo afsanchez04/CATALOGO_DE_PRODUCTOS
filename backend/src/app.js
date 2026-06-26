@@ -15,7 +15,8 @@ app.use( express.json() )
 app.use( cors({
   origin: [
     "http://localhost:5173",
-    "https://catalogo-de-productos-beta.vercel.app"
+    "https://catalogo-de-productos-beta.vercel.app",
+    "https://catalogo-de-productos-silk.vercel.app/"
   ],
   methods: ['GET', 'POST', 'PUT', 'DELETE'],
   credentials: true
